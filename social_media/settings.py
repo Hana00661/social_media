@@ -37,6 +37,17 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    # Registering the apps
+    'core',
+    'userauths',
+    'addin',
+    
+    # THird Party Apps
+    'crispy_forms',
+    'import_export',        # Should be lowercase
+    'taggit',
+    
 ]
 
 MIDDLEWARE = [
